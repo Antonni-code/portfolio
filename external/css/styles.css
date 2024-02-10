@@ -1,0 +1,193 @@
+.navbar-container{
+    background-color: #762A11 !important;
+    padding: 20px !important;
+    color: white;
+}
+
+.navbar{
+    font-family: 'Lora', serif !important;
+}
+
+.nav-item, .nav-link, .header-name{
+    color: white !important;
+}
+
+.encircler{
+    transition: border 0.2s ease-in, background-color 0.2s ease, padding 0.4s ease;
+}
+
+.encircler:hover {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color:#762A11;
+}
+
+.hero-section {
+    display: block;
+    background-color:antiquewhite;
+    height: 50vh;
+    margin-bottom: 50vh;
+}
+
+.namer{
+    color:#762A11;
+    font-weight: bolder;
+}
+.center-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.lefty {
+    position: relative;
+    z-index: 1;
+    font-family: 'Lora', serif !important;
+}
+
+.righty{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country{
+    transition: color 0.5s ease;
+}
+
+.country:hover{
+    color:#762A11;
+}
+
+.righty {
+    color: white;
+}
+
+.namer {
+    padding-top: 50%;
+    margin-bottom: 0;
+}
+
+
+.img-bg {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    padding-bottom: 50px;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: 1;
+    border-radius: 50%;
+    transition: filter 0.5s ease;
+}
+
+.img-bg:hover{
+    filter: brightness(100%);
+}
+
+.small-its{
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #762A11;
+    width:fit-content;
+    text-transform: lowercase;
+    transition: background-color 0.3s ease, color 0.2s ease;
+}
+
+.small-its:hover{
+    background-color: #762A11;
+    color:white;
+}
+
+.programming-languages{
+
+    border-top: 2px dashed #762A11;
+    font-family: 'Lora', serif !important;
+    text-align: center;
+}
+
+.about-me-section{
+    background-color: #762A11;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Lora', serif !important;
+}
+
+.about-me-header{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.content-about{
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0px auto;
+}
+
+
+
+.container-work{
+    border: 1px solid #762A11;
+}
+
+.container-work-right{
+    border: 1px solid white;
+}
+
+.left-content{
+    transition: background-color 0.5s ease, color 0.4s ease;
+}
+
+
+.left-content:hover{
+   background-color: #762A11;
+   color:white;
+}
+
+.right-backend{
+    transition: background-color 0.5s ease, color 0.4s ease;
+    background-color: #762A11;
+    color: white;
+}
+
+
+.right-backend:hover, container-work-right{
+    border: 1px solid #762A11;
+    background-color: white;
+    color:#762A11;
+ }
+
+ .contact-section{
+    padding-top: 20vh;
+    font-family: 'Lora', serif !important;
+    text-align:center;
+    margin-bottom: 100px;
+ }
+
+ .email{
+    color: #762A11;
+    text-decoration:dotted;
+ }
+
+ .footer-section{
+    border: 1px solid #762A11;
+    background-color: #762A11;
+    color:white;
+    font-family: 'Lora', serif !important;
+ }
+
+ .footer-name{
+    padding-top: 10vh;
+ }
+
+ .footer-link{
+    
+ }
