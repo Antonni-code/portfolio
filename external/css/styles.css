@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf')
+  }
+
 .navbar-container{
     background-color: #762A11 !important;
     padding: 20px !important;
